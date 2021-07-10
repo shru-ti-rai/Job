@@ -1,0 +1,156 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+
+.container{
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(0,0,0,0.5);
+    color: white;
+    text-align: center;
+}
+
+.container h1{
+    font-family: 'Ubuntu', sans-serif;
+    color:chartreuse;
+    
+}
+
+#personal_info{
+    margin-top: 50px;
+    width: 100%;
+    height: 2.4rem;
+    background-color: rgb(212, 174, 174);
+    color:maroon;
+    text-align: center;
+    padding-top: 5px;
+}
+
+.container2{
+    width:80%;
+    text-align: justify;
+    margin-left: 30px;
+    margin-top: 20px;
+    
+}
+
+.box{
+    width:20%;
+    height: 1.5rem;
+    position: relative;
+    border-radius: 5px;
+    background-color: aliceblue;
+}
+
+#lname{
+    margin-left: 45px;
+}
+
+#line1{
+    width: 50%;  
+}
+
+#educational_info{
+        margin-top: 70px;
+        width: 100%;
+        height: 2.4rem;
+        background-color: rgb(212, 174, 174);
+        color:maroon;
+        text-align: center;
+        padding-top: 5px;
+        
+}
+
+.container3{
+    width:80%;
+    text-align: justify;
+    margin-left: 30px;
+    margin-top: 20px;
+    
+
+}
+
+#additional_info{
+    width: 100%;
+    height: 2.4rem;
+    background-color: rgb(212, 174, 174);
+    color:maroon;
+    text-align: center;
+    padding-top: 5px;
+}
+
+.container4{
+    width:80%;
+    text-align: justify;
+    margin-left: 30px;
+    margin-top: 20px;
+
+}
+
+label{
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 500;
+    font-size: 17px;
+    color:rgb(132, 228, 36);
+}
+
+#option1{
+    width: 10%;
+    height:1.8rem;
+    position: relative;
+    bottom: 2px;
+    border-radius: 5px;
+    background-color: aliceblue;;
+
+}
+
+textarea{
+    width: 50%;
+    height: 20vh;
+    display: flex;
+    position: relative;
+    bottom: 10px;
+    margin-top: 20px;
+    border: 5px solid rgba(0, 0, 0, 0.534);
+    background-color:  aliceblue;;
+}
+
+.btn{
+    width: 9%;
+    height: 5vh;
+    padding: 5px 5px;
+    border-radius: 3px;
+    cursor: pointer;
+    background-color:  aliceblue;;
+}
+
+.btn:hover{
+    background-color: rgb(132, 228, 36);
+}
+
+.pincode{
+    
+    width:8%;
+    height: 1.4rem;
+    position: relative;
+    border-radius: 5px;
+    background-color: aliceblue;;
+}
+.cont{
+    background-color: rgba(0,0,0,0.5);
+    
+}
+
+.cont2{
+    background-color: rgba(0,0,0,0.5);
+    
+}
+input .larger{
+    color: chartreuse;
+
+}
+
+
+

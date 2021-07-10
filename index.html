@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather&family=STIX+Two+Math&family=Ubuntu&display=swap" rel="stylesheet">
+    <title>Job Application Form</title>
+    <style>
+        body{
+            background-color: blueviolet;
+            background-attachment: fixed;
+            background-size: cover;
+            background-repeat: no-repeat;
+
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <h1>Job Application Form</h1>
+    
+        <div id="personal_info">
+            <h2>Personal Information</h2>
+        </div>
+
+      <div class="container2">
+        <label>First Name :</label>
+        <input type="name" name="name"  class="box">
+        <label id="lname">Last Name :</label>
+        <input type="name" name="lname" class="box"><br><br><br>
+        <label id="contact">Contact Number:</label>
+        <input type="number" name="contact" class="box"><br><br><br>
+        <label>Email :</label>
+        <input type="email" name="email" class="box"><br><br><br>
+        <label>Gender : </label>&nbsp&nbsp&nbsp
+        <input type="radio" name="radio" class="larger" >&nbsp&nbsp&nbspMale
+        <input type="radio" name="radio">&nbsp&nbsp&nbspFemale
+        <input type="radio" name="radio">&nbsp&nbsp&nbspOther<br><br><br>
+        <label>Father's Name : </label>
+        <input type="name" name="fname" id="fname" class="box">
+        <label id="lname">Mother's Name : </label>
+        <input type="name" name="name" id="mname" class="box"><br><br><br>
+        <label>Address (Line 1) : </label><br>
+        <input type="address" name="address" class="box" id="line1"><br><br>
+        <label>Address (Line 2) : </label><br>
+        <input type="address" name="address" class="box" id="line1"><br><br><br>
+        <label>District : </label>
+        <select id="option1">
+            <option name="select an option">Select an option</option>
+            <option value="district">Lucknow</option>
+            <option value="district">Varanasi</option>
+            <option value="district">Pratapgarh</option>
+            
+        </select>
+        <label id="lname">City : </label>
+        <select id="option1">
+            <option name="select an option">Select an option</option>
+            <option value="city">Lucknow</option>
+            <option value="city">Delhi</option>
+            <option value="city">Chennai</option>
+            
+        </select>
+        <label id="lname">Pincode : </label>
+        <input type="number" name="pincode" class="pincode"><br><br><br>
+
+      </div>
+    
+    <div class="cont">
+
+      <div id="educational_info">
+        <h2>Educational Details</h2>
+      </div>
+
+      <div class="container3">
+          <label>Highest Qualification : </label>
+        
+            <select id="option1">
+                <option name="select an option">Select an option</option>
+                <option value="postgraduate">Post Graduate</option>
+                <option value="Graduate">Graduate</option>
+                <option value="Intermediate">Intermediate</option>
+                
+            </select>
+        
+          <label id="lname">Degree : </label>
+            <select id="option1">
+                <option name="select an option">Select an option</option>
+                <option value="B.A.">B.A.</option>
+                <option value="B.Tech">B.Tech</option>
+                <option value="Intermediate">Intermediate</option>
+                
+            </select><br><br><br>
+        <label>Institute Name : </label>
+        <input type="text" name="college name" class="box"><br><br><br>
+        <label>Year of Passing : </label>
+        <select id="option1">
+            <option name="select an option">Select an option</option>
+            <option value="2021">2021</option>
+            
+        </select><br><br><br>
+        
+        <label>Past Experience : </label><br>
+        <textarea placeholder="Mention your previous work here"></textarea><br><br><br>
+        <label>Upload your documents (if you have worked in a company previously or want to show case your work) : </label><br>
+        <input type="file" class="upload" class="box"><br><br><br>
+        <label>Languages known : </label>
+        <input type="text" name="lang" class="box"><br><br>
+      </div>
+    </div>
+
+    <div class="cont2">
+
+      <div id="additional_info">
+        <h2>Additional Details</h2>
+      </div>
+
+     <div class="container4">
+         <label>Skills : </label><br><br>
+         <input type="checkbox" name="checkbox" class="larger"><label> Communication </label><br><br>
+        <input type="checkbox" name="checkbox" class="larger"><label> Leadership </label><br><br>
+        <input type="checkbox" name="checkbox" class="larger"><label> Team Work </label><br><br>
+        <input type="checkbox" name="checkbox" class="larger"><label> Quick Learner </label><br><br>
+        <input type="checkbox" name="checkbox" class="larger"><label> Time Management </label><br><br><br>
+
+        <label>Hobbies/Interests : </label>
+        <input type="text" name="hobbies" class="box"><br><br><br>
+        <label>About Yourself : </label><br><br>
+        <textarea placeholder="Write about yourself (minimum100 words)"></textarea><br><br><br>
+
+
+     </div>
+
+     <button class="btn"><h3>Submit</h3></button>
+    </div>
+
+
+
+
+
+
+
+
+    </div>
+    
+</body>
+</html>
